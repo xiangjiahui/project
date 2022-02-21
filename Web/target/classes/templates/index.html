@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+        <h1 sec:authorize="hasRole('ROLE_admin')">欢迎您[[${loginName}]]</h1>
+
+        <div sec:authorize="hasRole('ROLE_admins')">
+            This will only be displayed if authenticated user has role ROLE_ADMIN.
+        </div>
+
+        <div sec:authentication="name">
+            The value of the "name" property of the authentication object should appear here.
+        </div>
+
+        <a th:href="@{/main}">主页</a><br>
+
+        登录账号：<span sec:authentication="name"></span><br>
+        登录账号：<span sec:authentication="principal.username"></span><br>
+        凭证：<span sec:authentication="credentials"></span><br>
+        权限和角色：<span sec:authentication="authorities"></span><br>
+        客户端地址：<span sec:authentication="details.remoteAddress"></span><br>
+        sessionID：<span sec:authentication="details.sessionId"></span><br>
+
+        通过权限判断:<button sec:authorize="hasAuthority('admin')">删除</button>
+        <button sec:authorize="hasAuthority('admins')">增加</button>
+
+
+</body>
+</html>
