@@ -173,6 +173,33 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
     }
 
+    @Override
+    public void updateAvatar(Integer uid, String username, String avatar) {
+        QueryWrapper<User> wrapper = new QueryWrapper<>();
+        wrapper.eq("uid", uid).eq("username", username);
+        User loginUser = userMapper.selectOne(wrapper);
+
+        if (loginUser == null) {
+            throw new UserNotFoundException("用户数据不存在");
+        }
+
+        if (loginUser.getIsDelete() == 1) {
+            throw new UserNotFoundException("用户数据不存在");
+        }
+
+        User user = new User();
+        user.setUid(uid);
+        user.setModifiedUser(username);
+        user.setModifiedTime(new Date());
+        user.setAvatar(avatar);
+
+        int row = userMapper.updateById(user);
+
+        if (row != 1){
+            throw new UpdateException("文件上传失败");
+        }
+    }
+
 
     /**
      * 执行密码加密,

@@ -53,4 +53,7 @@ public interface UserService extends IService<User> {
      * @param gender   修改的性别
      */
     void updateUser(Integer uid, String username, String phone, String email, Integer gender);
+
+
+    void updateAvatar(Integer uid, String username, String avatar);
 }
