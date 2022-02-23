@@ -10,4 +10,11 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface AddressMapper extends BaseMapper<Address> {
+
+    /**
+     * 统计某用户的收货地址数据的数量
+     * @param uid 用户的uid
+     * @return
+     */
+    Integer countByUid(Integer uid);
 }

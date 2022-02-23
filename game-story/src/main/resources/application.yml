@@ -15,7 +15,12 @@ spring:
       max-request-size: 10MB
 
 mybatis-plus:
-  mapper-locations: classpath:mapper/*.xml
+  mapper-locations: classpath*:mapper/*.xml
   type-aliases-package: com.xjh.**.domain
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+user:
+  address:
+    max-count: 10

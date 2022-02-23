@@ -21,7 +21,7 @@ import java.io.Serializable;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@TableName("t_dic_district")
+@TableName("t_dict_district")
 public class District implements Serializable {
 
     @TableId(type = IdType.AUTO)
