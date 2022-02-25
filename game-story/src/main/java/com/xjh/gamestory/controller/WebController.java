@@ -1,7 +1,9 @@
 package com.xjh.gamestory.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 
 /**
  * @author xjh
@@ -101,8 +103,9 @@ public class WebController {
         return "/web/paySuccess";
     }
 
-    @GetMapping("/web/product")
-    public String toProduct(){
+    @GetMapping("/web/product/{id}")
+    public String toProduct(@PathVariable("id") Integer id, ModelMap map){
+        map.addAttribute("id",id);
         return "/web/product";
     }
 

@@ -259,10 +259,10 @@
 				// cid=6&cid=5&cid=4
 				// console.log(location.search.substr(1));
 				$.ajax({
-					url: "/carts/list",
+					url: "/cart/cart_list",
 					data: location.search.substr(1),
 					type: "GET",
-					dataType: "JSON",
+					dataType: "json",
 					success: function(json) {
 						let list = json.data;
 						console.log("count=" + list.length);
@@ -299,7 +299,7 @@
 			function showAddressList() {
 				$("#address-list").empty();
 				$.ajax({
-					url: "/addresses",
+					url: "/address/get_all_address",
 					type: "GET",
 					dataType: "JSON",
 					success: function(json) {

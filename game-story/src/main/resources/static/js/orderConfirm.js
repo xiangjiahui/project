@@ -1,10 +1,10 @@
 $(function() {
 	$(".link-pay").click(function() {
-		location.href = "payment.html";
+		location.href = "/web/payment";
 	})
 })
 $(function() {
 	$(".link-success").click(function() {
-		location.href = "paySuccess.html";
+		location.href = "/web/paySuccess";
 	})
 })

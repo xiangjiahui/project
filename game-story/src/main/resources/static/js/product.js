@@ -30,7 +30,7 @@ $(function() {
 	})
 	//点购物车跳页面
 	$(".go-cart").click(function() {
-		location.href = "cart.html";
+		location.href = "/web/cart";
 	});
 	$(".img-big:eq(0)").show();
 })

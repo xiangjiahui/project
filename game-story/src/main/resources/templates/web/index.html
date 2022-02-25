@@ -299,16 +299,16 @@
 			function showHotList() {
 				$("#hot-list").empty();
 				$.ajax({
-					url: "/products/hot_list",
+					url: "/product/hot_list",
 					type: "GET",
-					dataType: "JSON",
+					dataType: "json",
 					success: function(json) {
 						let list = json.data;
 						console.log("count=" + list.length);
 						for (let i = 0; i < list.length; i++) {
 							console.log(list[i].title);
 							let html = '<div class="col-md-12">'
-									  + '<div class="col-md-7 text-row-2"><a href="product.html?id=#{id}">#{title}</a></div>'
+									  + '<div class="col-md-7 text-row-2"><a href="/web/product/#{id}">#{title}</a></div>'
 									  + '<div class="col-md-2">¥#{price}</div>'
 									  + '<div class="col-md-3"><img src="..#{image}collect.png" class="img-responsive" /></div>'
 									+ '</div>';

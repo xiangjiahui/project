@@ -20,7 +20,7 @@
 		<link rel="stylesheet" type="text/css" th:href="@{/css/index.css}" />
 		<link rel="stylesheet" type="text/css" th:href="@{/css/layout.css}" />
 		<link rel="stylesheet" type="text/css" th:href="@{/css/footer.css}" />
-		<!-- <script src="../js/cart.js" type="text/javascript" charset="utf-8"></script> -->
+<!--		 <script th:src="@{/js/cart.js}" type="text/javascript" charset="utf-8"></script>-->
 	</head>
 
 	<body>
@@ -174,7 +174,7 @@
 							</div>
 							<div>
 								<span class="pull-right">
-								<input type="submit" value="  结  算  " class="btn btn-primary btn-lg link-account" />
+								<input type="button" value="  结  算  " class="btn btn-primary link-account" />
 							</span>
 							</div>
 						</form>
@@ -275,11 +275,13 @@
 			function showCartList() {
 				$("#cart-list").empty();
 				$.ajax({
-					url: "/carts",
+					url: "/cart/cart_list",
 					type: "GET",
-					dataType: "JSON",
+					dataType: "json",
 					success: function(json) {
 						let list = json.data;
+						let selectCount = 0;
+						let selectTotal = 0;
 						for (let i = 0; i < list.length; i++) {
 							let tr = '<tr>'
 										+ '<td>'
@@ -289,7 +291,7 @@
 										+ '<td>#{title}#{msg}</td>'
 										+ '<td>¥<span id="price-#{cid}">#{realPrice}</span></td>'
 										+ '<td>'
-										+ 	'<input type="button" value="-" class="num-btn" onclick="reduceNum(1)" />'
+										+ 	'<input type="button" value="-" class="num-btn" onclick="reduceNum(#{cid})" />'
 										+ 	'<input id="num-#{cid}" type="text" size="2" readonly="readonly" class="num-text" value="#{num}">'
 										+ 	'<input class="num-btn" type="button" value="+" onclick="addNum(#{cid})" />'
 										+ '</td>'
@@ -311,18 +313,23 @@
 								tr = tr.replace(/#{msg}/g, "");
 							}
 							$("#cart-list").append(tr);
+
+							selectCount += list[i].num;
+							selectTotal += list[i].realPrice * list[i].num;
 						}
+						$("#selectCount").html(selectCount);
+						$("#selectTotal").html(selectTotal);
 					}
 				});
 			}
 
 			function addNum(cid) {
 				$.ajax({
-					url: "/carts/" + cid + "/num/add",
+					url: "/cart/num/add/" + cid,
 					type: "POST",
-					dataType: "JSON",
+					dataType: "json",
 					success: function(json) {
-						if (json.state == 200) {
+						if (json.code === 200) {
 							// showCartList();
 							$("#num-" + cid).val(json.data);
 							let price = $("#price-" + cid).html();
@@ -334,19 +341,43 @@
 					},
 					error: function(xhr) {
 						alert("您的登录信息已经过期，请重新登录！HTTP响应码：" + xhr.status);
-						location.href = "login.html";
+						location.href = "/web/login";
 					}
 				});
 			}
 
-			/*
+			function reduceNum(cid){
+				$.ajax({
+					url: "/cart/num/reduce/" + cid,
+					type: "POST",
+					dataType: "json",
+					success: function(json) {
+						if (json.code === 200) {
+							// showCartList();
+							$("#num-" + cid).val(json.data);
+							let price = $("#price-" + cid).html();
+							let totalPrice = price * json.data;
+							$("#total-price-" + cid).html(totalPrice);
+						}
+						if (json.code === 500){
+							alert("删除商品数量失败！" + json.message);
+						}
+					},
+					error: function(xhr) {
+						alert("您的登录信息已经过期，请重新登录！HTTP响应码：" + xhr.status);
+						location.href = "/web/login";
+					}
+				});
+			}
+
+
 			$(function() {
 				//返回链接
 				$(".link-account").click(function() {
-					location.href = "orderConfirm.html";
+					location.href = "/web/orderConfirm";
 				});
 			});
-			*/
+
 		</script>
 	</body>
 

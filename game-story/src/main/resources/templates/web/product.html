@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 	<head>
 		<meta charset="UTF-8">
@@ -32,8 +32,8 @@
 			<!--电脑商城logo-->
 			<div class="row">
 				<div class="col-md-3">
-					<a href="index.html">
-						<img src="../images/index/stumalllogo.png" />
+					<a href="/web/index">
+						<img th:src="@{/images/index/stumalllogo.png}" />
 					</a>
 				</div>
 				<!--快捷选项-->
@@ -296,30 +296,35 @@
 			</div>
 		</footer>
 		<!--页脚结束-->
-		<script type="text/javascript" src="../js/jquery-getUrlParam.js"></script>
-		<script type="text/javascript">
-			let id = $.getUrlParam("id");
-			console.log("id=" + id);
+		<script type="text/javascript" th:src="@{/js/jquery-getUrlParam.js}"></script>
+		<script type="text/javascript" th:inline="javascript">
+			// let id = $.getUrlParam("id");
+			// console.log("id=" + id);
+			let id = [[${id}]];
 			$(document).ready(function() {
 				$.ajax({
-					url: "/products/" + id + "/details",
+					url: "/product/details/" + id ,
 					type: "GET",
-					dataType: "JSON",
+					dataType: "json",
 					success: function(json) {
-						if (json.state == 200) {
+						if (json.code === 200) {
 							console.log("title=" + json.data.title);
 							$("#product-title").html(json.data.title);
 							$("#product-sell-point").html(json.data.sellPoint);
 							$("#product-price").html(json.data.price);
 
 							for (let i = 1; i <= 5; i++) {
-								$("#product-image-" + i + "-big").attr("src", ".." + json.data.image + i + "_big.png");
-								$("#product-image-" + i).attr("src", ".." + json.data.image + i + ".jpg");
+								$("#product-image-" + i + "-big").attr("src", json.data.image + i + "_big.png");
+								$("#product-image-" + i).attr("src", json.data.image + i + ".jpg");
 							}
-						} else if (json.state == 4006) { // 商品数据不存在的异常
+						} /*else if (json.code === 500) { // 商品数据不存在的异常
 							location.href = "index.html";
 						} else {
 							alert("获取商品信息失败！" + json.message);
+						}*/
+						else if (json.code === 500){
+							alert(json.message)
+							location.href = "/web/index";
 						}
 					}
 				});
@@ -327,23 +332,24 @@
 
 			$("#btn-add-to-cart").click(function() {
 				$.ajax({
-					url: "/carts/add_to_cart",
+					url: "/cart/add_to_cart",
 					type: "POST",
 					data: {
 						"pid": id,
 						"amount": $("#num").val()
 					},
-					dataType: "JSON",
+					dataType: "json",
 					success: function(json) {
-						if (json.state == 200) {
+						if (json.code === 200) {
 							alert("增加成功！");
-						} else {
+						}
+						if (json.code === 500){
 							alert("增加失败！" + json.message);
 						}
 					},
 					error: function(xhr) {
-						alert("您的登录信息已经过期，请重新登录！HTTP响应码：" + xhr.status);
-						location.href = "login.html";
+						alert("您的登录信息已经过期，请重新登录！HTTP响应码：" + xhr.code);
+						location.href = "/web/index";
 					}
 				});
 			});
