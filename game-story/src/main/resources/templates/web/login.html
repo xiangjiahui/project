@@ -161,6 +161,7 @@
 						}
 						if (json.code === 400){
 							alert("登录失败!" + json.message);
+							$("#password").val("");
 						}
 						if (json.code === 500) {
 							alert("登录失败！" + json.message);
