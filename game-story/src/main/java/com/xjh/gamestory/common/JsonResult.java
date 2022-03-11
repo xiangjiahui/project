@@ -1,4 +1,4 @@
-package com.xjh.gamestory.util;
+package com.xjh.gamestory.common;
 
 
 import java.io.Serializable;

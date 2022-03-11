@@ -39,9 +39,10 @@ public interface AddressService extends IService<Address> {
 
     /**
      * 设置指定的地址为默认地址
-     * @param uid 登录用户的uid
-     * @param aid 指定的地址的aid
+     *
+     * @param uid      登录用户的uid
+     * @param aid      指定的地址的aid
      * @param username 登录用户的username
      */
-    void setDefault(Integer uid,Integer aid,String username);
+    void setDefault(Integer uid, Integer aid, String username);
 }

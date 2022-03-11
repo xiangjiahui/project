@@ -5,7 +5,7 @@ import com.xjh.gamestory.exception.DeleteException;
 import com.xjh.gamestory.exception.InsertException;
 import com.xjh.gamestory.exception.UpdateException;
 import com.xjh.gamestory.service.CartService;
-import com.xjh.gamestory.util.JsonResult;
+import com.xjh.gamestory.common.JsonResult;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 

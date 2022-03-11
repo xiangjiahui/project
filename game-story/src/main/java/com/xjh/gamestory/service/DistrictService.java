@@ -25,4 +25,6 @@ public interface DistrictService extends IService<District> {
      * @return 省市的名字
      */
     String getNameByCode(String code);
+
+    List<District> getDistricts();
 }

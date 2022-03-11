@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script th:src="@{/bootstrap3/js/holder.js}" ></script>
+    <link th:href="@{/bootstrap3/css/bootstrap.css}" rel="stylesheet" type="text/css">
+    <script th:src="@{/bootstrap3/jquery-1.9.1.min.js}"></script>
+    <script th:src="@{/bootstrap3/js/bootstrap.js}"></script>
+    <!-- 字体图标 -->
+    <link rel="stylesheet" th:href="@{/bootstrap3/font-awesome-4.7.0/css/font-awesome.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/top.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/index.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/layout.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/footer.css}" />
+</head>
+<body>
+        <form id="form-page">
+            <input id="btn-first" type="button" class="btn btn-primary">
+            <input id="btn-end" type="button" class="btn btn-primary">
+            <input id="total" type="text">
+        </form>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                // $("#form-page").empty();
+                $.ajax({
+                    url: "/page",
+                    type: "GET",
+                    dataType: "json",
+                    success: function (json) {
+                        if (json.code === 200) {
+                            $("#btn-first").val("第" + json.data.pageNum + "页");
+                            $("#btn-end").val("第" + json.data.size + "页");
+                            $("#total").val("总共" + json.data.total + "条记录");
+
+                        }
+                    }
+                });
+            });
+        </script>
+</body>
+</html>

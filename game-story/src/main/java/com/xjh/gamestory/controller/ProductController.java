@@ -3,7 +3,7 @@ package com.xjh.gamestory.controller;
 import com.xjh.gamestory.domain.Product;
 import com.xjh.gamestory.exception.ProductNotFoundException;
 import com.xjh.gamestory.service.ProductService;
-import com.xjh.gamestory.util.JsonResult;
+import com.xjh.gamestory.common.JsonResult;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

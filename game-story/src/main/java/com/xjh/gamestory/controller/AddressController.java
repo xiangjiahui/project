@@ -3,7 +3,7 @@ package com.xjh.gamestory.controller;
 import com.xjh.gamestory.domain.Address;
 import com.xjh.gamestory.exception.*;
 import com.xjh.gamestory.service.AddressService;
-import com.xjh.gamestory.util.JsonResult;
+import com.xjh.gamestory.common.JsonResult;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 

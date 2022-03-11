@@ -1,0 +1,384 @@
+2022-03-01 12:53:06.030  INFO 13220 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 13220 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 12:53:06.030  INFO 13220 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 12:53:06.049  INFO 13220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 12:53:06.049  INFO 13220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 12:53:06.863  INFO 13220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 12:53:06.879  INFO 13220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 12:53:06.879  INFO 13220 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 12:53:06.925  INFO 13220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 12:53:06.925  INFO 13220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 876 ms
+2022-03-01 12:53:07.771  INFO 13220 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 12:53:07.990  INFO 13220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 12:53:08.021  INFO 13220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 12:53:08.036  INFO 13220 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.356 seconds (JVM running for 2.971)
+2022-03-01 12:53:13.079  INFO 13220 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 12:53:13.079  INFO 13220 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 12:53:13.080  INFO 13220 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-01 12:54:36.025  INFO 6976 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 6976 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 12:54:36.025  INFO 6976 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 12:54:36.041  INFO 6976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 12:54:36.041  INFO 6976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 12:54:36.851  INFO 6976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 12:54:36.866  INFO 6976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 12:54:36.866  INFO 6976 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 12:54:36.913  INFO 6976 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 12:54:36.913  INFO 6976 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 872 ms
+2022-03-01 12:54:37.824  INFO 6976 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 12:54:38.121  INFO 6976 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 12:54:38.136  INFO 6976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 12:54:38.152  INFO 6976 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.467 seconds (JVM running for 3.09)
+2022-03-01 12:54:47.105  INFO 12332 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 12332 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 12:54:47.105  INFO 12332 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 12:54:47.121  INFO 12332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 12:54:47.121  INFO 12332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 12:54:47.923  INFO 12332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 12:54:47.938  INFO 12332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 12:54:47.938  INFO 12332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 12:54:47.985  INFO 12332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 12:54:47.985  INFO 12332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 864 ms
+2022-03-01 12:54:48.830  INFO 12332 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 12:54:49.065  INFO 12332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 12:54:49.080  INFO 12332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 12:54:49.096  INFO 12332 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.326 seconds (JVM running for 2.926)
+2022-03-01 12:54:53.207  INFO 12332 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 12:54:53.207  INFO 12332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 12:54:53.208  INFO 12332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-01 13:00:56.182  INFO 1164 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 1164 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:00:56.182  INFO 1164 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:00:56.213  INFO 1164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 13:00:56.213  INFO 1164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 13:00:57.041  INFO 1164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:00:57.041  INFO 1164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:00:57.041  INFO 1164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:00:57.088  INFO 1164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:00:57.088  INFO 1164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 875 ms
+2022-03-01 13:00:57.966  INFO 1164 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:00:58.201  INFO 1164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:00:58.232  INFO 1164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:00:58.232  INFO 1164 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.395 seconds (JVM running for 3.021)
+2022-03-01 13:01:09.696  INFO 1164 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:01:09.697  INFO 1164 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:01:09.697  INFO 1164 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-03-01 13:03:56.492  INFO 8876 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 8876 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:03:56.492  INFO 8876 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:03:56.524  INFO 8876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 13:03:56.524  INFO 8876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 13:03:57.321  INFO 8876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:03:57.321  INFO 8876 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:03:57.321  INFO 8876 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:03:57.367  INFO 8876 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:03:57.367  INFO 8876 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 843 ms
+2022-03-01 13:03:58.228  INFO 8876 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:03:58.463  INFO 8876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:03:58.494  INFO 8876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:03:58.509  INFO 8876 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.384 seconds (JVM running for 3.126)
+2022-03-01 13:04:01.871  INFO 8876 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:04:01.871  INFO 8876 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:04:01.872  INFO 8876 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-03-01 13:08:30.157  INFO 3688 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 3688 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:08:30.157  INFO 3688 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:08:30.188  INFO 3688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 13:08:30.188  INFO 3688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 13:08:31.016  INFO 3688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:08:31.016  INFO 3688 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:08:31.016  INFO 3688 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:08:31.063  INFO 3688 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:08:31.063  INFO 3688 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 875 ms
+2022-03-01 13:08:31.956  INFO 3688 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:08:32.191  INFO 3688 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:08:32.222  INFO 3688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:08:32.222  INFO 3688 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.413 seconds (JVM running for 3.086)
+2022-03-01 13:08:36.178  INFO 3688 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:08:36.178  INFO 3688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:08:36.179  INFO 3688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-01 13:10:53.852  INFO 7872 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 7872 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:10:53.853  INFO 7872 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:10:53.878  INFO 7872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 13:10:53.878  INFO 7872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 13:10:54.696  INFO 7872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:10:54.702  INFO 7872 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:10:54.702  INFO 7872 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:10:54.750  INFO 7872 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:10:54.750  INFO 7872 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 871 ms
+2022-03-01 13:10:55.638  INFO 7872 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:10:55.909  INFO 7872 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:10:55.942  INFO 7872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:10:55.952  INFO 7872 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.439 seconds (JVM running for 3.131)
+2022-03-01 13:11:09.633  INFO 7872 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:11:09.633  INFO 7872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:11:09.634  INFO 7872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-01 13:16:46.930  INFO 6504 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 6504 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:16:46.930  INFO 6504 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:16:46.945  INFO 6504 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 13:16:46.945  INFO 6504 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 13:16:47.759  INFO 6504 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:16:47.759  INFO 6504 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:16:47.759  INFO 6504 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:16:47.806  INFO 6504 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:16:47.806  INFO 6504 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 861 ms
+2022-03-01 13:16:48.699  INFO 6504 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:16:48.918  INFO 6504 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:16:48.949  INFO 6504 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:16:48.949  INFO 6504 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.37 seconds (JVM running for 2.999)
+2022-03-01 13:16:52.721  INFO 6504 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:16:52.721  INFO 6504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:16:52.722  INFO 6504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-01 13:19:21.550  INFO 1096 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 1096 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:19:21.550  INFO 1096 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:19:21.581  INFO 1096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 13:19:21.581  INFO 1096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 13:19:22.380  INFO 1096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:19:22.395  INFO 1096 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:19:22.395  INFO 1096 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:19:22.442  INFO 1096 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:19:22.442  INFO 1096 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 861 ms
+2022-03-01 13:19:23.320  INFO 1096 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:19:23.539  INFO 1096 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:19:23.555  INFO 1096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:19:23.570  INFO 1096 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.346 seconds (JVM running for 2.953)
+2022-03-01 13:19:26.163  INFO 1096 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:19:26.163  INFO 1096 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:19:26.164  INFO 1096 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-01 13:20:37.733  INFO 8168 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 8168 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:20:37.733  INFO 8168 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:20:37.764  INFO 8168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 13:20:37.764  INFO 8168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 13:20:38.546  INFO 8168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:20:38.561  INFO 8168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:20:38.561  INFO 8168 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:20:38.608  INFO 8168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:20:38.608  INFO 8168 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 844 ms
+2022-03-01 13:20:39.516  INFO 8168 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:20:39.734  INFO 8168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:20:39.766  INFO 8168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:20:39.781  INFO 8168 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.363 seconds (JVM running for 3.041)
+2022-03-01 13:20:52.206  INFO 8168 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:20:52.207  INFO 8168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:20:52.208  INFO 8168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-01 13:32:55.114  INFO 8168 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 8168 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:32:55.114  INFO 8168 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:32:55.365  INFO 8168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:32:55.365  INFO 8168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:32:55.365  INFO 8168 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:32:55.381  INFO 8168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:32:55.381  INFO 8168 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 267 ms
+2022-03-01 13:32:55.773  INFO 8168 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:32:55.851  INFO 8168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:32:55.851  INFO 8168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:32:55.851  INFO 8168 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 0.772 seconds (JVM running for 739.126)
+2022-03-01 13:32:55.867  INFO 8168 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-01 13:32:57.638  INFO 8168 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 8168 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:32:57.638  INFO 8168 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:32:57.843  INFO 8168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:32:57.843  INFO 8168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:32:57.843  INFO 8168 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:32:57.853  INFO 8168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:32:57.853  INFO 8168 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 215 ms
+2022-03-01 13:32:58.187  INFO 8168 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:32:58.260  INFO 8168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:32:58.270  INFO 8168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:32:58.272  INFO 8168 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 0.654 seconds (JVM running for 741.533)
+2022-03-01 13:32:58.273  INFO 8168 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-01 13:32:58.462  INFO 8168 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:32:58.463  INFO 8168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:32:58.463  INFO 8168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-03-01 13:35:57.679  INFO 11880 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 11880 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:35:57.679  INFO 11880 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:35:57.711  INFO 11880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 13:35:57.711  INFO 11880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 13:35:58.572  INFO 11880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:35:58.572  INFO 11880 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:35:58.572  INFO 11880 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:35:58.635  INFO 11880 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:35:58.635  INFO 11880 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 924 ms
+2022-03-01 13:35:59.654  INFO 11880 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:35:59.874  INFO 11880 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:35:59.905  INFO 11880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:35:59.905  INFO 11880 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.577 seconds (JVM running for 3.165)
+2022-03-01 13:36:03.433  INFO 11880 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:36:03.433  INFO 11880 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:36:03.434  INFO 11880 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-01 13:38:11.771  INFO 11880 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 11880 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:38:11.772  INFO 11880 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:38:12.057  INFO 11880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:38:12.058  INFO 11880 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:38:12.058  INFO 11880 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:38:12.074  INFO 11880 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:38:12.074  INFO 11880 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 298 ms
+2022-03-01 13:38:12.479  INFO 11880 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:38:12.575  INFO 11880 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:38:12.586  INFO 11880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:38:12.589  INFO 11880 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 0.852 seconds (JVM running for 135.84)
+2022-03-01 13:38:12.591  INFO 11880 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-01 13:38:13.037  INFO 11880 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:38:13.037  INFO 11880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:38:13.037  INFO 11880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-03-01 13:38:14.411  INFO 11880 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 11880 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:38:14.411  INFO 11880 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:38:14.623  INFO 11880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:38:14.624  INFO 11880 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:38:14.624  INFO 11880 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:38:14.636  INFO 11880 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:38:14.636  INFO 11880 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 223 ms
+2022-03-01 13:38:14.965  INFO 11880 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:38:15.045  INFO 11880 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:38:15.054  INFO 11880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:38:15.057  INFO 11880 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 0.67 seconds (JVM running for 138.308)
+2022-03-01 13:38:15.058  INFO 11880 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-01 13:49:13.236  INFO 14104 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 14104 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:49:13.236  INFO 14104 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:49:13.267  INFO 14104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 13:49:13.267  INFO 14104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 13:49:14.081  INFO 14104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:49:14.081  INFO 14104 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:49:14.081  INFO 14104 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:49:14.143  INFO 14104 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:49:14.143  INFO 14104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 876 ms
+2022-03-01 13:49:15.036  INFO 14104 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:49:15.254  INFO 14104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:49:15.286  INFO 14104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:49:15.286  INFO 14104 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.446 seconds (JVM running for 3.104)
+2022-03-01 13:49:18.710  INFO 14104 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:49:18.710  INFO 14104 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:49:18.711  INFO 14104 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-01 13:53:44.266  INFO 9172 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 9172 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:53:44.266  INFO 9172 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:53:44.297  INFO 9172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 13:53:44.297  INFO 9172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 13:53:45.111  INFO 9172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:53:45.111  INFO 9172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:53:45.111  INFO 9172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:53:45.173  INFO 9172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:53:45.173  INFO 9172 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 876 ms
+2022-03-01 13:53:46.067  INFO 9172 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:53:46.286  INFO 9172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:53:46.302  INFO 9172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:53:46.317  INFO 9172 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.38 seconds (JVM running for 3.031)
+2022-03-01 13:53:49.410  INFO 9172 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:53:49.410  INFO 9172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:53:49.411  INFO 9172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-01 13:54:56.626  INFO 1332 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 1332 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:54:56.626  INFO 1332 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:54:56.657  INFO 1332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 13:54:56.657  INFO 1332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 13:54:57.455  INFO 1332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:54:57.455  INFO 1332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:54:57.455  INFO 1332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:54:57.502  INFO 1332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:54:57.502  INFO 1332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 845 ms
+2022-03-01 13:54:58.396  INFO 1332 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:54:58.615  INFO 1332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:54:58.630  INFO 1332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:54:58.646  INFO 1332 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.357 seconds (JVM running for 3.0)
+2022-03-01 13:55:01.207  INFO 1332 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:55:01.208  INFO 1332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:55:01.209  INFO 1332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-01 13:55:52.212  INFO 13392 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 13392 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:55:52.212  INFO 13392 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:55:52.244  INFO 13392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 13:55:52.244  INFO 13392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 13:55:53.058  INFO 13392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:55:53.074  INFO 13392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:55:53.074  INFO 13392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:55:53.105  INFO 13392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:55:53.105  INFO 13392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 861 ms
+2022-03-01 13:55:53.981  INFO 13392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:55:54.202  INFO 13392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:55:54.233  INFO 13392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:55:54.233  INFO 13392 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.379 seconds (JVM running for 2.963)
+2022-03-01 13:55:57.306  INFO 13392 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:55:57.306  INFO 13392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:55:57.307  INFO 13392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-03-01 13:56:13.690  INFO 12148 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 12148 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:56:13.690  INFO 12148 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:56:13.722  INFO 12148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 13:56:13.722  INFO 12148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 13:56:14.537  INFO 12148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:56:14.537  INFO 12148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:56:14.537  INFO 12148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:56:14.584  INFO 12148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:56:14.584  INFO 12148 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 862 ms
+2022-03-01 13:56:15.445  INFO 12148 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:56:15.664  INFO 12148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:56:15.679  INFO 12148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:56:15.695  INFO 12148 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.35 seconds (JVM running for 2.927)
+2022-03-01 13:56:18.097  INFO 12148 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:56:18.098  INFO 12148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:56:18.099  INFO 12148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-01 13:57:32.058  INFO 12148 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 12148 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 13:57:32.058  INFO 12148 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 13:57:32.276  INFO 12148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 13:57:32.276  INFO 12148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 13:57:32.276  INFO 12148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 13:57:32.292  INFO 12148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 13:57:32.292  INFO 12148 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 219 ms
+2022-03-01 13:57:32.653  INFO 12148 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 13:57:32.731  INFO 12148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 13:57:32.747  INFO 12148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 13:57:32.747  INFO 12148 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 0.711 seconds (JVM running for 79.981)
+2022-03-01 13:57:32.747  INFO 12148 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-01 13:57:36.000  INFO 12148 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 13:57:36.000  INFO 12148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 13:57:36.001  INFO 12148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-01 14:00:25.581  INFO 12708 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 12708 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 14:00:25.581  INFO 12708 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 14:00:25.612  INFO 12708 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 14:00:25.612  INFO 12708 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 14:00:26.458  INFO 12708 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 14:00:26.474  INFO 12708 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 14:00:26.474  INFO 12708 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 14:00:26.521  INFO 12708 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 14:00:26.521  INFO 12708 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 909 ms
+2022-03-01 14:00:27.399  INFO 12708 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 14:00:27.617  INFO 12708 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 14:00:27.649  INFO 12708 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 14:00:27.649  INFO 12708 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.415 seconds (JVM running for 3.06)
+2022-03-01 14:00:29.162  INFO 12708 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 14:00:29.162  INFO 12708 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 14:00:29.163  INFO 12708 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-01 14:01:03.469  INFO 12708 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 12708 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 14:01:03.469  INFO 12708 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 14:01:03.796  INFO 12708 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 14:01:03.796  INFO 12708 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 14:01:03.796  INFO 12708 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 14:01:03.811  INFO 12708 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 14:01:03.811  INFO 12708 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 342 ms
+2022-03-01 14:01:04.273  INFO 12708 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 14:01:04.413  INFO 12708 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 14:01:04.427  INFO 12708 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 14:01:04.430  INFO 12708 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 0.99 seconds (JVM running for 39.828)
+2022-03-01 14:01:04.432  INFO 12708 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-01 14:01:05.480  INFO 12708 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 14:01:05.481  INFO 12708 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 14:01:05.482  INFO 12708 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-01 14:01:06.231  INFO 12708 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 12708 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 14:01:06.231  INFO 12708 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 14:01:06.432  INFO 12708 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 14:01:06.432  INFO 12708 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 14:01:06.432  INFO 12708 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 14:01:06.441  INFO 12708 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 14:01:06.442  INFO 12708 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 209 ms
+2022-03-01 14:01:06.802  INFO 12708 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 14:01:06.895  INFO 12708 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 14:01:06.906  INFO 12708 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 14:01:06.909  INFO 12708 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 0.7 seconds (JVM running for 42.308)
+2022-03-01 14:01:06.910  INFO 12708 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-01 14:01:07.102  INFO 12708 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 14:01:07.103  INFO 12708 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 14:01:07.103  INFO 12708 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-03-01 14:06:10.625  INFO 13672 --- [restartedMain] com.xjh.GameStoryApplication             : Starting GameStoryApplication using Java 1.8.0_321 on DESKTOP-HTL098J with PID 13672 (C:\Project\game-story\target\classes started by 123 in C:\Project\game-story)
+2022-03-01 14:06:10.625  INFO 13672 --- [restartedMain] com.xjh.GameStoryApplication             : No active profile set, falling back to default profiles: default
+2022-03-01 14:06:10.640  INFO 13672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 14:06:10.640  INFO 13672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 14:06:11.453  INFO 13672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 14:06:11.468  INFO 13672 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 14:06:11.468  INFO 13672 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 14:06:11.515  INFO 13672 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 14:06:11.515  INFO 13672 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 859 ms
+2022-03-01 14:06:12.376  INFO 13672 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-01 14:06:12.595  INFO 13672 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-01 14:06:12.626  INFO 13672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 14:06:12.626  INFO 13672 --- [restartedMain] com.xjh.GameStoryApplication             : Started GameStoryApplication in 2.363 seconds (JVM running for 2.977)
+2022-03-01 14:06:16.670  INFO 13672 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 14:06:16.671  INFO 13672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-01 14:06:16.671  INFO 13672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms

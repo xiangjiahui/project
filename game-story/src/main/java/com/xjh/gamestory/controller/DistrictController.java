@@ -2,7 +2,7 @@ package com.xjh.gamestory.controller;
 
 import com.xjh.gamestory.domain.District;
 import com.xjh.gamestory.service.DistrictService;
-import com.xjh.gamestory.util.JsonResult;
+import com.xjh.gamestory.common.JsonResult;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
