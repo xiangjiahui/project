@@ -28,5 +28,6 @@ user:
     max-count: 10
 
 logging:
-  file:
-    name: spring-logback.xml
+#  file:
+#    name: spring-logback.xml
+  config: classpath:logback-spring.xml

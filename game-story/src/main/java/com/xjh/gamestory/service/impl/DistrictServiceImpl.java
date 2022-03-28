@@ -35,11 +35,4 @@ public class DistrictServiceImpl extends ServiceImpl<DistrictMapper, District> i
 
         return district.getName();
     }
-
-    @Override
-    public List<District> getDistricts() {
-        QueryWrapper<District> wrapper = new QueryWrapper<>();
-        wrapper.orderByAsc("code");
-        return districtMapper.selectList(wrapper);
-    }
 }

@@ -26,5 +26,4 @@ public interface DistrictService extends IService<District> {
      */
     String getNameByCode(String code);
 
-    List<District> getDistricts();
 }
