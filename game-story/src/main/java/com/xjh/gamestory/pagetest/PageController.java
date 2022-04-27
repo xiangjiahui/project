@@ -9,7 +9,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
@@ -27,12 +26,11 @@ public class PageController {
 
     private final Logger logger = LoggerFactory.getLogger(PageController.class);
 
-    @GetMapping("/page/{current}/{limit}")
+    @GetMapping("/page")
     @ResponseBody
-    public JsonResult pageTest(@PathVariable("current") long current,
-                               @PathVariable("limit") long limit){
+    public JsonResult pageTest(Integer pageNum, Integer pageSize){
         logger.info("分页测试开始");
-        Page<District> districtPage = new Page<>(current, limit);
+        Page<District> districtPage = new Page<>(pageNum, pageSize);
 
         districtService.page(districtPage);
 
@@ -42,7 +40,7 @@ public class PageController {
         //数据集合
         List<District> records = districtPage.getRecords();
 
-        PageResult<District> pageResult = new PageResult<>(records, (int) total, (int) current);
+        PageResult<District> pageResult = new PageResult<>(records, (int) total, pageNum);
 
         logger.info("分页测试结束");
         return JsonResult.success(pageResult);
