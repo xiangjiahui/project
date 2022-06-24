@@ -1,5 +1,7 @@
 package com.xjh.gamestory.common.page;
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -21,33 +23,46 @@ public class PageResult<T> implements Serializable {
     /**
      * 总记录数
      */
-    private int totalRecord;
+    private Integer totalRecord;
 
     /**
      * 当前页
      */
-    private int currentPage;
+    private Integer currentPage;
 
     /**
      * 每页大小
      */
-    private int pageSize;
+    private Integer pageSize;
 
     /**
      * 总页数
      */
-    private int startIndex;
-    private int totalPage;
+    private Integer startIndex;
+    private Integer totalPage;
+
 
     /**
-     * 前一页
+     * 将Mybatis的Page转为自定义的分页结果
+     * @param page
+     * @return
      */
-    private int previousPage;
+    public PageResult<T> convertToPageResult(Page<T> page){
+        PageResult<T> pageResult = new PageResult<>();
+        //所有数据集合
+        pageResult.setList(page.getRecords());
+        //总记录数
+        pageResult.setTotalRecord((int)page.getTotal());
+        //当前页码
+        pageResult.setCurrentPage((int)page.getCurrent());
+        //每页大小
+        pageResult.setPageSize((int)page.getSize());
+        //总页数:  总记录数 / 每页大小 + 1
+        pageResult.setTotalPage((int)(page.getTotal() / page.getSize() + 1));
+        return pageResult;
+    }
 
-    /**
-     * 下一页
-     */
-    private int nextPage;
+
 
     public List<T> getList() {
         return list;
@@ -57,91 +72,43 @@ public class PageResult<T> implements Serializable {
         this.list = list;
     }
 
-    public int getTotalRecord() {
+    public Integer getTotalRecord() {
         return totalRecord;
     }
 
-    public void setTotalRecord(int totalRecord) {
-        this.totalRecord = list.size();
+    public void setTotalRecord(Integer totalRecord) {
+        this.totalRecord = totalRecord;
     }
 
-    public int getCurrentPage() {
+    public Integer getCurrentPage() {
         return currentPage;
     }
 
-    public void setCurrentPage(int currentPage) {
+    public void setCurrentPage(Integer currentPage) {
         this.currentPage = currentPage;
     }
 
-    public int getPageSize() {
+    public Integer getPageSize() {
         return pageSize;
     }
 
-    public void setPageSize(int pageSize) {
-        this.pageSize = 10;
+    public void setPageSize(Integer pageSize) {
+        this.pageSize = pageSize;
     }
 
-    public int getStartIndex() {
+    public Integer getStartIndex() {
         return startIndex;
     }
 
-    public void setStartIndex(int startIndex) {
-        this.startIndex = pageSize * (currentPage - 1);
+    public void setStartIndex(Integer startIndex) {
+        this.startIndex = startIndex;
     }
 
-    public void setTotalPage(int totalPage) {
-        if (this.totalRecord % this.pageSize == 0) {
-            this.totalPage = this.totalRecord / this.pageSize;
-        } else {
-            this.totalPage = this.totalRecord / this.pageSize + 1;
-        }
-    }
-
-    public void setPreviousPage(int previousPage) {
-        if (this.totalRecord % this.pageSize == 0) {
-            this.totalPage = this.totalRecord / this.pageSize;
-        } else {
-            this.totalPage = this.totalRecord / this.pageSize + 1;
-        }
-    }
-
-    public void setNextPage(int nextPage) {
-        if (this.currentPage + 1 > this.totalPage) {
-            this.nextPage = this.totalPage;
-        } else {
-            this.nextPage = this.currentPage + 1;
-        }
-    }
-
-    public int getTotalPage() {
+    public Integer getTotalPage() {
         return totalPage;
     }
 
-    public int getPreviousPage() {
-        return previousPage;
-    }
-
-    public int getNextPage() {
-        return nextPage;
-    }
-
-    @Override
-    public String toString() {
-        return "Page{" +
-                "list=" + list +
-                ", totalRecord=" + totalRecord +
-                ", currentPage=" + currentPage +
-                ", pageSize=" + pageSize +
-                ", startIndex=" + startIndex +
-                ", totalPage=" + totalPage +
-                ", previousPage=" + previousPage +
-                ", nextPage=" + nextPage +
-                '}';
-    }
-
-    public PageResult(List<T> list, int totalRecord, int currentPage) {
-        this.list = list;
-        this.totalRecord = totalRecord;
-        this.currentPage = currentPage;
+    public void setTotalPage(Integer totalPage) {
+        this.totalPage = totalPage;
     }
 }

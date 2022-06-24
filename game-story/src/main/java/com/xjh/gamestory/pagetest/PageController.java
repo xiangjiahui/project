@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
-import java.util.List;
 
 /**
  * @author 向嘉晖
@@ -28,21 +27,14 @@ public class PageController {
 
     @GetMapping("/page")
     @ResponseBody
-    public JsonResult pageTest(Integer pageNum, Integer pageSize){
+    public JsonResult pageTest(Integer currentPage, Integer pageSize){
         logger.info("分页测试开始");
-        Page<District> districtPage = new Page<>(pageNum, pageSize);
+        Page<District> districtPage = new Page<>(currentPage, pageSize);
 
         districtService.page(districtPage);
 
-        //总记录数
-        long total = districtPage.getTotal();
-
-        //数据集合
-        List<District> records = districtPage.getRecords();
-
-        PageResult<District> pageResult = new PageResult<>(records, (int) total, pageNum);
-
+        PageResult<District> pageResult = new PageResult<>();
         logger.info("分页测试结束");
-        return JsonResult.success(pageResult);
+        return JsonResult.success(pageResult.convertToPageResult(districtPage));
     }
 }
