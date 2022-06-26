@@ -3,8 +3,6 @@ n
 >src/main/java/com/xjh/gamestory/exception/InsertException.java,d\3\d352bead2027d43abb2e5a5d134d5a2276e9574d
 h
 8src/main/java/com/xjh/gamestory/common/StrFormatter.java,f\2\f2c161170d98df493a21fcfb181a73b517ab9e5a
-o
-?src/main/java/com/xjh/gamestory/exception/ServiceException.java,3\7\3701be0bea7154bdcc472486889e8ebf7f1aa76e
 x
 Hsrc/main/java/com/xjh/gamestory/exception/PasswordNotMatchException.java,1\1\112b97d9cca571b8788166d778561d30795d2d59
 n
@@ -47,8 +45,6 @@ t
 Dsrc/main/java/com/xjh/gamestory/exception/AccessDeniedException.java,d\9\d916e0490262faeb00cec162ac48d7f4d56da2a2
 t
 Dsrc/main/java/com/xjh/gamestory/service/impl/AddressServiceImpl.java,c\a\ca52b1c5412215d96a1ebf9e56dba244d3144b07
-n
->src/main/java/com/xjh/gamestory/controller/UserController.java,c\6\c61b923bec23d072db990b2a8b557574df529715
 r
 Bsrc/main/java/com/xjh/gamestory/controller/DistrictController.java,d\9\d91d9a16d8c1416275064febdc70a694f322c66a
 c
@@ -79,12 +75,8 @@ k
 ;src/main/java/com/xjh/gamestory/service/AddressService.java,5\d\5d0a30c1faf20b5220bc5282d6ee443d7c2dd4b5
 m
 =src/main/java/com/xjh/gamestory/controller/WebController.java,6\2\624328998191c557114207c539f62a29dca74283
-i
-9src/main/java/com/xjh/gamestory/aspectj/TimerAspectj.java,a\7\a71cb24a9a6ac4422c68d84ca78eca320345fa57
 l
 <src/main/java/com/xjh/gamestory/service/DistrictService.java,e\0\e05518a6f041e602d0b83c98c70432b9094a7eae
-q
-Asrc/main/java/com/xjh/gamestory/service/impl/UserServiceImpl.java,1\d\1de8cf942912c30dfaf7a0d4ef2b6d4abc45b71d
 b
 2src/main/java/com/xjh/gamestory/util/FileUtil.java,b\7\b7964dac53403ce6f13a6b24fcdf5ebadc0083c9
 e
@@ -93,3 +85,15 @@ f
 6src/main/java/com/xjh/gamestory/util/ServletUtils.java,6\9\698573b65923e85a67253dba4116c41ddc9e26fe
 c
 3src/main/java/com/xjh/gamestory/util/HttpUtils.java,0\9\09ce8bc4b4a6362319188e8eddec98291565eb81
+u
+Esrc/main/java/com/xjh/gamestory/service/impl/DistrictServiceImpl.java,7\2\72aead2bb8f402a69b22494a3810b3a4bb9d6103
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+f
+6src/main/java/com/xjh/gamestory/config/PageConfig.java,8\7\87cbbfff9ceaa2124a9c3065db63c0fd6cc5bb28
+v
+Fsrc/main/java/com/xjh/gamestory/config/LoginInterceptorConfigurer.java,f\e\fe707b7d5ebea824c0fe3450f77f32223958bff1
+f
+6src/main/java/com/xjh/gamestory/common/JsonResult.java,8\9\894ed10f243db0f25b549d97b1b4c21c119fd870
+c
+3src/main/java/com/xjh/gamestory/domain/Address.java,3\4\34ac4b3a16af2ec995642034060a606df4b33367

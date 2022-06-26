@@ -51,9 +51,10 @@ public class UserController extends BaseController {
             return JsonResult.success("登录成功", user);
         } catch (PasswordNotMatchException e) {
             return JsonResult.failed("密码错误");
-        } catch (UserNotFoundException e) {
-            return JsonResult.error("用户名不存在");
         }
+        //catch (UserNotFoundException e) {
+            //return JsonResult.error("用户名不存在");
+        //}
 
     }
 

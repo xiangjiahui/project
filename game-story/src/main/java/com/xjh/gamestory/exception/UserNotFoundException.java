@@ -1,6 +1,9 @@
 package com.xjh.gamestory.exception;
 
-/** 用户数据不存在的异常 */
+/**
+ * 用户数据不存在的异常
+ * @author 123
+ * */
 public class UserNotFoundException extends ServiceException {
     public UserNotFoundException() {
         super();

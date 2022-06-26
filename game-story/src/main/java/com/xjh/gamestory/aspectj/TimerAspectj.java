@@ -3,6 +3,7 @@ package com.xjh.gamestory.aspectj;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
 /**
@@ -13,7 +14,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class TimerAspectj {
 
-    @Around("execution(* com.xjh.gamestory.service.impl.*.*(..))")
+    @Pointcut("execution(* com.xjh.gamestory.service.impl.*.*(..))")
+    public void timerAspect(){
+    }
+
+    @Around("timerAspect()")
     public Object around(ProceedingJoinPoint joinPoint) throws Throwable {
         //记录起始时间
         long startTime = System.currentTimeMillis();
